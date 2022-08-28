@@ -245,8 +245,8 @@
         /// <param name="browserEngine">
         /// The browser engine.
         /// </param>
-        /// <param name="title">
-        /// The title.
+        /// <param name="id">
+        /// The id.
         /// </param>
         /// <param name="chromiumCardData">
         /// The Chromium card data.
@@ -257,7 +257,7 @@
         /// <returns>
         /// <c>True</c> if managed to retrieve the requested card data, <c>false</c> otherwise.
         /// </returns>
-        public static bool TryGetCardData(IBrowserEngineState browserEngine, string title, out Model.Chromium.Site chromiumCardData, out Model.Gecko.Site geckoCardData)
+        public static bool TryGetCardData(IBrowserEngineState browserEngine, string id, out Model.Chromium.Site chromiumCardData, out Model.Gecko.Site geckoCardData)
         {
             throw new NotImplementedException("This functionality is not yet implemented!");
         }
